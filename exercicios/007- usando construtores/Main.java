@@ -2,12 +2,17 @@ public class Main {
 	float saldo;
 	String nome;
 	String cargo;
+	Main(float	saldoInit, String nomeInit, String cargoInit) {
+		saldo = saldoInit;
+		nome = nomeInit;
+		cargo = cargoInit;
+	}
 	
-	Main(float	saldo, String nome, String cargo) {
+	/*Main(float	saldo, String nome, String cargo) {
 		this.saldo = saldo;
 		this.nome = nome;
 		this.cargo = cargo; 
-	}
+	}*/
 	
 	public static void main(String[] args) {
 
