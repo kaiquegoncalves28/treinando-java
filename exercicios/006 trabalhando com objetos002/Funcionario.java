@@ -16,7 +16,7 @@ public class Funcionario {
 
 		Funcionario funcionario3 = new Funcionario();
 		funcionario3.nome = "Mauro";
-		funcionario3.cargo = "Desenvolvedor senior";
+		funcionario3.cargo = "Ajudante geral";
 		funcionario3.idade = 28;
 		
 

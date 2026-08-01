@@ -4,6 +4,7 @@ public class main {
         
         int numeroCarteirinha = 22;
 
+            while (numeroCarteirinha <= 60)
              switch (numeroCarteirinha) {
             case 11:
             case 22:
@@ -15,7 +16,7 @@ public class main {
             default:
                 System.out.println("Carteirinha não aceita pelo Hospital, número da Carteirinha é = " + numeroCarteirinha);
                 break;
-
+                numeroCarteirinha++;
         }
     }
 }
