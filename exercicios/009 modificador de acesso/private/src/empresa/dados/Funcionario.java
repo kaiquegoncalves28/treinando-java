@@ -1,7 +1,8 @@
 package empresa.dados;
 
 public class Funcionario {
-
+    //Private somente possível acessar na mesma classe. Porem podemos fazer uma
+    //sobrecarga de construtores para acessar ela, ex:
     int idade;
     private String nome;
 
