@@ -1,10 +1,8 @@
-import pasta.TestMetodos;
+import pasta.*;
 
 public class Main {
-    public static void main(String[] args) {
-        TestMetodos info = new TestMetodos(19, "Lucas");
-
-        // Chamada correta: através do objeto 'info'
-        System.out.println(info.ObterInfo());
+    public static void main (String[] args){
+        Produto prod = new Produto("Açúcar", 15, 12.50);
+        System.out.println(prod.obterInfo());
     }
 }
