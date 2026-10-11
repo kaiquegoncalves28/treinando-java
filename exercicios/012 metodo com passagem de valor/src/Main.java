@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Funcionario funcionario = new Funcionario(6000);
-        System.out.println(funcionario.setSalario());
+        Funcionario funcionario = new Funcionario("Kaíque",7000.0);
+        System.out.println(funcionario.obterInfo());
 
-        funcionario.aumentar(2000);
-        System.out.println(funcionario.setSalario());
+        funcionario.alterarQualquerSalario(funcionario, 9000);
+        System.out.println(funcionario.obterInfo());
     }
 }
